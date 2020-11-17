@@ -1,0 +1,20 @@
+*::before,*::after,*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    --bright: rgb(171, 232, 232);
+    --dark: rgb(64, 182, 182);
+    --darker: rgb(39, 111, 111);
+    
+   
+}
+
+.test{
+    border: 2px solid green;
+}
